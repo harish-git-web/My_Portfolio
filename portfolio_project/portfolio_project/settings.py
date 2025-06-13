@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure--bu5jf=^3=4i^6k(0afwuciea-f4#9&yekbhafx4(3isjux^x!
 DEBUG = True
 
 
-ALLOWED_HOSTS = [os.environ.get('RENDER_EXTERNAL_HOSTNAME', 'localhost')]
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware'
+    
 ]
 
 ROOT_URLCONF = 'portfolio_project.urls'
@@ -136,5 +136,5 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'hariperumalhp@gmail.com'          # Replace with your Gmail
+EMAIL_HOST_USER = 'hariperumalhp@gmail.com'          
 EMAIL_HOST_PASSWORD = 'phll ckqw qidr rohu' 
