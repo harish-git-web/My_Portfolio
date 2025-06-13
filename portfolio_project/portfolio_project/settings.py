@@ -15,6 +15,7 @@ import os
 
 
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 MEDIA_URL = '/media/'
@@ -30,7 +31,7 @@ SECRET_KEY = 'django-insecure--bu5jf=^3=4i^6k(0afwuciea-f4#9&yekbhafx4(3isjux^x!
 DEBUG = True
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
