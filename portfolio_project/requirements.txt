@@ -1,6 +1,0 @@
-Django>=4.2
-gunicorn
-whitenoise
-pymupdf
-google-generativeai
-django
